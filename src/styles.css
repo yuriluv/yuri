@@ -89,6 +89,13 @@ p {
   color: #f8fafc;
   padding: 16px;
   text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.upload-box.dragging {
+  transform: scale(1.01);
+  border-color: #facc15;
+  background: rgba(250, 204, 21, 0.14);
 }
 
 .upload-box input {
